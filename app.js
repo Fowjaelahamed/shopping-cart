@@ -7,7 +7,7 @@ function updateProductNumber(product, price, isIncreasing) {
         productNumber = parseInt(productNumber) - 1;
     }
     productInput.value = productNumber;
-    // update caseTotal 
+    // update productTotal 
     const productTotal = document.getElementById(product + '-total');
     productTotal.innerText = productNumber * price;
 
